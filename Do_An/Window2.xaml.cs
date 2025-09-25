@@ -29,7 +29,7 @@ namespace Do_An
             otpCode = new Random().Next(100000, 999999).ToString();
 
             // Giả lập gửi mã
-            MessageBox.Show($"Mã xác minh (OTP) đã được gửi đến {emailOrPhone}\n\nMã OTP: {otpCode}",
+            MessageBox.Show($"Mã xác minh (OTP) đã được gửi đến: {emailOrPhone}\n\nMã OTP: {otpCode}",
                             "Xác minh", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
